@@ -1,0 +1,18 @@
+.home { width: 100%; max-width: 1000px; margin: 0 auto; padding: 60px;padding-right: 300px; display: flex ; flex-direction: column; align-items: flex-start; justify-content: center; height: 100%; min-height: calc(100vh - 340px); position: relative; background: #132C4B; background: linear-gradient(90deg, #f6fcff73 0%
+0%
+, rgb(233 245 254 / 52%) 100%);}
+   .home h1{text-align: left;}
+   .home p { display: block; width: 100%; max-width: 510px; color: #708497; margin: 30px 0; font-size: 16px; line-height: 26px; text-align: justify;}
+   
+  .home .opcoes{ display: flex; column-gap: 20px; flex-wrap: wrap;}
+   .home .opcoes .btn{margin: 0;}
+
+  ol{margin: -15px 0 20px; padding-left: 20px; display: block; width: 100%; max-width: 510px; color: #708497; line-height: 26px; text-align: justify;}
+
+    .lista{margin: -15px 0 30px; padding-left: 20px; width: 100%; max-width: 510px; color: #708497; line-height: 24px; text-align: left; list-style: disc; display: flex ; flex-direction: column; gap: 8px;}
+
+  .home .figura{display: block;position: absolute;width: 340px;height: 340px;background-image: url(./calendarioFigure.svg);background-size: contain;background-repeat: no-repeat;top: 50%; transform: translateY(-50%); right: -20px;}
+   
+   .home .figuraAssistente{display: block;position: absolute;width: 340px;height: 340px;background-image: url(./assistenteFigura.svg);background-size: contain;background-repeat: no-repeat;top: 80px; right: -20px;}
+
+      .home .figuraMedico{display: block;position: absolute;width: 340px;height: 340px;background-image: url(./medicoFigura.svg);background-size: contain;background-repeat: no-repeat;top: 80px; right: -20px;}

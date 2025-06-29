@@ -1,0 +1,35 @@
+.listaAssistentes{display: block; width: 100%; max-width: 1450px; margin: 0 auto; padding: 60px; background: #ffffff9e; border-radius: 50px;}
+
+ul.boxAssistentes li, .notification-item {
+background: #fff; width: 100%; background-color: rgb(228 242 249); padding: 20px 30px 20px 80px; border-radius: 5px; display: flex ; justify-content: space-between; align-items: center; position: relative; transition: all 0.5s ease; max-width: 830px; margin: 0 auto 10px;
+}
+
+.notification-item p{display: block; font: 600 16px / 28px 'Montserrat'; text-align: left; margin-right: 30px; color: #000;}
+
+  .notification-item::before{content: "";display: block;position: absolute; width: 40px; height: 34px; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' style='enable-background:new 0 0 512 512' viewBox='0 0 512 512'%3E%3Cg fill='%237fbdb7'%3E%3Ccircle cx='253.53' cy='118.61' r='118.61' data-original='%23000000'/%3E%3Cpath d='M410.08 308.16c-56.29 0-101.92 45.63-101.92 101.92S353.79 512 410.08 512 512 466.37 512 410.08s-45.63-101.92-101.92-101.92zm43.87 120.92h-24.87v24.87c0 10.49-8.51 19-19 19s-19-8.51-19-19v-24.87h-24.87c-10.49 0-19-8.51-19-19s8.51-19 19-19h24.87v-24.87c0-10.49 8.51-19 19-19s19 8.51 19 19v24.87h24.87c10.49 0 19 8.51 19 19s-8.51 19-19 19z' data-original='%23000000'/%3E%3Cpath d='M280.16 410.08c0-34.7 13.51-67.33 38.05-91.87s57.16-38.05 91.87-38.05c2.21 0 4.41.06 6.6.17-9.27-5.72-19.75-9.42-30.65-10.59-24.53-2.6-85.44-4.02-123.38-4.01-37.94 0-112.6 1.42-137.13 4.01-16.69 1.78-32.42 9.49-44.28 21.33-11.86 11.87-19.34 27.34-21.08 43.95-.02.17-.04.34-.05.51-2.12 20.26-1.18 31.42-1.18 31.43s-.93 17.33 1.18 37.92c.02.17.04.35.05.52 1.73 16.87 9.18 33.54 20.99 47.07 11.81 13.5 27.48 23.21 44.15 26.72 24.46 5.82 99.29 11.73 137.37 10.78 12.77.09 28.13-.47 43.82-1.46-17.08-22.46-26.33-49.73-26.33-78.43z' data-original='%23000000'/%3E%3C/g%3E%3C/svg%3E"); background-repeat: no-repeat; background-size: contain; background-position: center; top: 50%; transform: translateY(-50%); left: 23px; opacity: 0.8; transition: all 0.3s ease;}
+
+  ul.boxAssistentes li::before{content: ""; display: block; position:absolute; width: 27px; height: 27px; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 500'%3E%3Cpath fill='%2345c9a5' d='M439.5 143.28c10.47-21.86 8.99-48.35-8.98-66.32l-7.48-7.48c-17.97-17.97-45.17-20.83-66.32-8.98-14.89 8.33-46.39-9-48.72-20.23C303.1 16.7 280.35 0 255.1 0l-12.85.65a55.58 55.58 0 0 0-52.76 55.51C190.5 69 168.5 78.5 155.72 70.15a56.16 56.16 0 0 0-79.42 0l-6.15 6.15c-18.81 18.8-21 47.34-8.04 69.3 8.89 15.07.22 41.73-14.38 45.32C21.16 197.46 0 217 0 245.8v9.3c0 25.5 18.58 44.53 41.69 52.73 23.98 8.5 22.09 43.68 19.63 47.89a56.18 56.18 0 0 0 8.83 67.98l6.15 6.15c18.34 18.34 45.72 20.48 67.66 9.02 15.7-8.2 45.04 7.13 47.47 19.67 4.72 24.29 28.3 41.46 54.22 41.46h8a56.88 56.88 0 0 0 54.23-39.7c4.76-15.05 27.79-30.3 50.7-20.66 21.8 9.17 48.65 6.69 65.68-10.35l5.6-5.59a56.16 56.16 0 0 0 0-79.42c-9.86-8.95 2.8-33.61 13.98-33.77A56.16 56.16 0 0 0 500 254.35v-9.62c0-25.82-17.14-48.86-41.27-54.16-16.23-3.57-24.48-36.32-19.23-47.29z'/%3E%3Cpath fill='%23fff' d='m206.25 326.33-65.17-65.17a20 20 0 1 1 28.29-28.29l51.03 51.03 110.23-110.23a20 20 0 1 1 28.28 28.28L234.54 326.33c-8.2 7-22.87 6-28.29 0z'/%3E%3C/svg%3E"); background-size: contain; background-repeat: no-repeat; left: 29px; top: 50%; transform: translateY(-50%);}
+
+
+
+.notification-item:hover { background-color: #05acbd2b; }
+.notification-item:hover::before{opacity: 1;}
+
+
+h2.tituloSolicitacao {margin-bottom: 20px;}
+
+
+h2.tituloSolicitacao:last-of-type { margin-top: 40px;}
+
+.accept-button {background-color: #22B45C;}
+.reject-button, .remover-btn{background-color: #C72D2D;}
+
+.accept-button, .reject-button, .remover-btn {border-radius: 50px; color: white; border: none; font-size: 14px; font-weight: bold; padding: 8px 20px; cursor: pointer; position: relative; outline: 4px solid transparent;    filter: brightness(1); transition: all 0.5s ease;}
+
+.accept-button:hover,.reject-button:hover, .remover-btn:hover{filter: brightness(1.15);}
+.notification-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}

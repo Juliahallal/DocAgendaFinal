@@ -1,0 +1,4 @@
+.sobre{ width: 100%; max-width: 1000px; margin: 0 auto; padding: 60px; display: flex ; flex-direction: column; align-items: center; justify-content: center; height: 100%; min-height: calc(100vh - 340px); position: relative; background: #132C4B; background: linear-gradient(90deg, #f6fcff73 0% 0%, rgb(233 245 254 / 52%) 100%);}
+   
+   .sobre p { display: block; width: 100%; max-width: 600px; color: #708497; margin: 30px 0; line-height: 26px; text-align: justify; }
+   

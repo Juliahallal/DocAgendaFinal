@@ -1,0 +1,28 @@
+div.calendario{display: block; width: 100%; max-width: 1450px; margin: 0 auto; padding: 60px; background: #ffffff9e; border-radius: 50px;}
+
+/* estilos para o modal */
+.modal-overlay { background-color: rgba(0, 0, 0, 0.75) !important; }
+   .modal-content {display: block; position: absolute; width: 100%; max-width: 550px; height: fit-content; top: 20%; left: 50%; transform: translateX(-50%); background: #fff !important; padding: 10px 20px 30px; border-radius: 1px; border-top: 20px solid #05acbd; box-shadow: 0px 0px 10px rgb(0 0 0 / 25%);}
+      .modal-content .btn-fechar{border: 0; margin: 0; transform: scale(2); cursor: pointer; position: absolute; top: -60px; right: 10px; padding: 0 5px; border-radius: 6px; background: #05acbd; color: #fff; transition: all 0.4s ease; }
+         .modal-content .btn-fechar:hover{background: #0B2B4B;}
+      .modal-content .btn{ margin-right: 20px; }
+
+   /* estilos para o calendário quando o modal está aberto */
+   .calendar-dimmed { opacity: 0.2; }
+   .error-message{ width: 90%; color: #ff0000; font-size: 14px; font-weight: bold; margin-top: 20px; padding: 0 20px; }
+
+.card-evento{width: 100%; display: flex ; justify-content: space-between; padding: 10px 20px; position: relative;flex-direction:column; gap:10px 20px;}
+   .card-evento label{display: flex ; align-items: flex-start;}
+      .card-evento .datas{display: flex ; gap: 30px;}
+      .card-evento label b{color: #878DA4; display: block; font: 500 14px / 28px 'Montserrat'; text-align: left; text-transform: lowercase;}
+      .card-evento label #input-titulo{width: 100%; height: 34px; border: 1px solid #DBDBDB; padding: 6px 20px 5px; border-radius: 1px 24px 24px; font: 400 14px / 19px 'Open sans'; letter-spacing: 0.01em; background: #fff; box-shadow: 0 1px 0 0 #0000004d;}
+      .card-evento #campoData{width: fit-content; height: 34px; border: 1px solid #DBDBDB; padding: 6px 15px 5px; border-radius: 1px 24px 24px; font: 400 13px / 19px 'Open sans'; letter-spacing: 0.01em; background: #fff; box-shadow: 0 1px 0 0 #0000004d;}
+      .card-evento select{width: fit-content; height: 34px; border: 1px solid #DBDBDB; padding: 6px 40px 5px 20px; border-radius: 1px 24px 24px; font: 400 14px / 19px 'Open sans'; letter-spacing: 0.01em; background: #fff; box-shadow: 0 1px 0 0 #0000004d; -webkit-appearance: none;appearance: none; background-image: linear-gradient(45deg, transparent 50%, #474747 50%), linear-gradient(135deg, #474747 50%, transparent 50%); background-position: calc(100% - 19px) calc(1em + 1px), calc(100% - 13px) calc(1em + 1px), calc(100% - 2.5em) 0.5em; background-size: 5px 5px, 6px 6px, 1px 1.5em; background-repeat: no-repeat; cursor: pointer;}
+      .card-evento .vinculo{color: #878DA4; display: block; font: 500 15px / 28px 'Montserrat'; text-align: left; margin: 5px 0 -5px; position: relative;padding-left: 25px;}
+         .card-evento .vinculo::before{content: ''; display: block; position: absolute; width: 20px; height: 20px;background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath fill='%23878DA4' d='M12.2314 4.232a2.5006 2.5006 0 0 1 3.536 0 2.5 2.5 0 0 1 0 3.536l-1.225 1.224a.7502.7502 0 0 0 .5336 1.2707.7499.7499 0 0 0 .5274-.2108l1.224-1.224a3.9996 3.9996 0 0 0-2.8423-6.7787 4.0004 4.0004 0 0 0-2.8137 1.1227l-3 3a4 4 0 0 0 .225 5.865.7498.7498 0 0 0 1.0498-.0872.7498.7498 0 0 0-.0727-1.0508 2.5 2.5 0 0 1-.142-3.667l2.9999-3Z'/%3E%3Cpath fill='%23878DA4' d='M11.6033 7.963a.75.75 0 0 0-.977 1.138 2.501 2.501 0 0 1 .8724 1.8026 2.5001 2.5001 0 0 1-.7304 1.8645l-3 3a2.5003 2.5003 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4.0004 4.0004 0 0 0-.9233 4.3918 4.0002 4.0002 0 0 0 3.737 2.4852 4.0003 4.0003 0 0 0 2.8423-1.221l3-3a3.9998 3.9998 0 0 0-.225-5.865Z'/%3E%3C/svg%3E");left: 0; top: 4px;}
+      .card-evento .btn{width: fit-content; min-width: 100px; margin-top: 10px; font-size: 15px;}
+      .card-evento .botoes{display: flex;}
+      .card-evento .btn.preto{background: #26466C;}
+      .card-evento #input-descric{width: 100%; height: 34px; border: 1px solid #DBDBDB; padding: 6px 20px 5px; border-radius: 1px 24px 24px; font: 400 14px / 19px 'Open sans'; letter-spacing: 0.01em; background: #fff; box-shadow: 0 1px 0 0 #0000004d;}
+
+.error-message{ border-radius: 5px; padding: 5px 10px; position: relative; margin: 0; display: flex; justify-content: center; align-items: center;  color: #721c24; background-color: #f8d7da; border: #f5c6cb;}

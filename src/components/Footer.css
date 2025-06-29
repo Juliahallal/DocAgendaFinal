@@ -1,0 +1,2 @@
+.rodape{ height: 100%; width: 100%; display: flex ; align-items: center; justify-content: center; text-align: center; color: #516D8A; font-size: 12px; padding: 14px 20px 10px; line-height: 24px; background: linear-gradient(0deg, rgb(255 255 255) 0%, rgb(228 242 249 / 45%) 100%); box-shadow: 0px -10px 25px 0px rgb(0 0 0 / 6%);}
+    .rodape p{ max-width: 90%; }
